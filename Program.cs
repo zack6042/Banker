@@ -1,4 +1,4 @@
-﻿
+
 using System;
 using System.Collections.Generic;
 
@@ -30,6 +30,16 @@ class GFG
 		for (int i = 0; i < m; i++)
 		{
 			alpha[i] = ((char)(65 + i)).ToString();
+		}
+		//allocated resources
+		for (int i = 0; i < n; i++)
+		{
+			Console.WriteLine($"Enter the allocated resources for process {i}");
+			for (int j = 0; j < m; j++)
+			{
+				Console.WriteLine($"Enter the allocation for resource"+" "+alpha[j]);
+				alloc[i, j] = int.Parse(Console.ReadLine());
+			}
 		}
 
 		// MAX Matrix
