@@ -7,4 +7,6 @@ the code starts by taking input from the user for all resources matrices {resour
 then it calculates the needed resources for each process need=Max-currently allocated using the function CalculateNeed()
 then it checks wether the simulation of resources and processes you mentioned is safe or not using issafe() fn by comparing the need with the available resources and if need =available release those resources to then be used on another process untill a sequence is determined the sequence is then printed and showed 
 if the need is bigger than the available in all processes then this simulation is not safe
+a console application was designed initially to design the algorithm
+then a very simple gui is added using c# gui simple text boxes and all actions are invoced on button press
 
