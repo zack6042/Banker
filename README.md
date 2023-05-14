@@ -10,3 +10,4 @@ if the need is bigger than the available in all processes then this simulation i
 a console application was designed initially to design the algorithm
 then a very simple gui is added using c# gui simple text boxes and all actions are invoced on button press
 
+ps****  both the console application and the windows form application(asswithgui) are present ***********
